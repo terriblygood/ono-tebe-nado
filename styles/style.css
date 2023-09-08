@@ -108,30 +108,38 @@
 
 .text__left-space {
     letter-spacing: 60px;
-}
+} 
+
 .text__left {
     letter-spacing: 30px;
 }
+
 .text__center-space {
     letter-spacing: 60px;
 }
+
 .text__center {
     letter-spacing: 30px;
 }
+
 .left__align {
     text-align: left;
     line-height: 115%; /* 115px */
 }
+
 .center__align {
     text-align: center;
     letter-spacing: normal;
 }
+
 .right__align {
     text-align: right;
 }
+
 .text__right {
     letter-spacing: 60px;
 }
+
 .text__right-righted {
     letter-spacing: normal;
 }
@@ -154,8 +162,6 @@
     text-transform: uppercase;
 
     word-spacing: 18px;
-
-
     margin-right: 78px;   
 }
 
@@ -233,14 +239,17 @@
     background-image: url(/images/card-lot-01.jpg);
     background-repeat: no-repeat;
 }
+
 .book {
     background-image: url(/images/card-lot-02.jpg);
     background-repeat: no-repeat;
 }
+
 .painting {
     background-image: url(/images/card-lot-03.jpg);
     background-repeat: no-repeat;
 }
+
 .card__title {
     color: #FFF;
     font-family: 'Raleway';
@@ -255,6 +264,7 @@
     padding-left: 40px;
     padding-bottom: 30px;   
 }
+
 .card__text {
     color: #FFF;
     font-family: 'Raleway';
@@ -268,6 +278,7 @@
     margin-top: auto;
     text-decoration-line: none;
 }
+
 .lots__look-more-link {
     color: #000;
     font-family: 'Raleway';
@@ -289,6 +300,7 @@
     padding-right: 50px;
     padding-top: 182px;
 }
+
 .logo__about {
     background-color: #000;
     border-radius: 50%;
@@ -299,11 +311,13 @@
     height: 240px;
     margin: 0px 95px 0px 95px;
 }
+
 .image__about {
     margin: auto;
     width: 148px;
     height: 114px;
 }
+
 .title__about {
     color: #000;
     font-family: 'Raleway';
@@ -315,6 +329,7 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 .text__about {
     color: #000;
     font-family: 'Raleway';
@@ -323,6 +338,7 @@
     font-weight: 400;
     line-height: normal;
 }
+
 .text__about-second {
     padding-top: 25px;
 }
@@ -360,12 +376,14 @@
     list-style-type: none;
     text-align: center;
 }
+
 .footer__links {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     list-style-type: none;
     justify-self: end;
 }
+
 .footer__links-icon {
     width: 48px;
     height: 48px;   
