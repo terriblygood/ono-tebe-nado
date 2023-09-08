@@ -94,14 +94,14 @@
 
     display: flex;
     flex-direction: column;
-    row-gap: 15px;
+    row-gap: 20px;
 
     color: #FFF;
     font-family: 'Raleway';
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
-    line-height: 115%; /* 115px */
+    line-height: 105%; /* 115px */
     letter-spacing: 30px;
     text-transform: uppercase;
 }
@@ -127,6 +127,7 @@
 }
 .right__align {
     text-align: right;
+    padding-right: 0;
 }
 
  .cover__desc {
