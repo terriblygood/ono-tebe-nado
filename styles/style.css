@@ -101,7 +101,7 @@
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
-    line-height: 105%; /* 115px */
+    line-height: 100%; /* 115px */
     letter-spacing: 30px;
     text-transform: uppercase;
 }
@@ -120,6 +120,7 @@
 }
 .left__align {
     text-align: left;
+    line-height: 115%; /* 115px */
 }
 .center__align {
     text-align: center;
@@ -127,7 +128,10 @@
 }
 .right__align {
     text-align: right;
-    padding-right: 0;
+}
+
+.text__right-righted {
+    letter-spacing: normal;
 }
 
  .cover__desc {
@@ -245,7 +249,7 @@
     text-decoration-line: underline;
     text-transform: uppercase;
     text-underline-offset: 3.5px;
-    padding: 50px 40px 40px;
+    padding: 50px 40px  40px;
 }
 .card__text {
     color: #FFF;
