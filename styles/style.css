@@ -129,7 +129,9 @@
 .right__align {
     text-align: right;
 }
-
+.text__right {
+    letter-spacing: 60px;
+}
 .text__right-righted {
     letter-spacing: normal;
 }
