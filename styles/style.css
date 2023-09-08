@@ -178,7 +178,7 @@
 .lots {
     padding-top: 180px;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 50px; 
 }
 
 .lots__header {
@@ -202,7 +202,7 @@
     flex-direction: row;
     gap: 25px;
 
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .lots__list-item {
@@ -249,7 +249,9 @@
     text-decoration-line: underline;
     text-transform: uppercase;
     text-underline-offset: 3.5px;
-    padding: 50px 40px  40px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 30px;   
 }
 .card__text {
     color: #FFF;
@@ -275,6 +277,7 @@
     text-underline-offset: 5px;
     margin-left: 40px;
 }
+
 .about {
     display: grid;
     grid-template-columns: max-content 1fr;
