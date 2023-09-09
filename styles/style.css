@@ -287,7 +287,8 @@
     font-weight: 400;
     line-height: normal;
 
-    text-underline-offset: 5px;
+    text-decoration: none;
+    border-bottom: 1px solid;
     margin-left: 40px;
 }
 
