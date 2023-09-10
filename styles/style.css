@@ -37,7 +37,7 @@
 .header__logo {
     width: 148px;
     height: 105px;
-    padding-bottom: 4px;
+    margin-bottom: 4px;
     align-self: center;
     justify-self: center;
 }
