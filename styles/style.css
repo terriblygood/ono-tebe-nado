@@ -125,10 +125,6 @@
     text-align: right;
 }
 
-.text__right {
-    letter-spacing: 60px;
-}
-
 .text__right-righted {
     letter-spacing: normal;
 }
@@ -203,7 +199,7 @@
 }
 
 .lots__list-item {
-    flex: 1;
+    flex-grow: 1;
     min-height: 450px;
     width: 430px;
 }
@@ -215,6 +211,7 @@
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 
     display: flex;
     flex-direction: column;
